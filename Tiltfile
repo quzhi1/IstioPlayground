@@ -1,0 +1,1 @@
+k8s_yaml('bookinfo.yaml')
