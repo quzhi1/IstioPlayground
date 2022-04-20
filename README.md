@@ -24,3 +24,8 @@ tilt up
 kubectl logs reviews-v1-745bcc464d-qtbdr -n default -c istio-init
 ```
 Right now, Apple M1 chip still can't run Istio locally.
+
+### Uninstall everything in Kubernetes
+```bash
+istioctl x uninstall --purge
+```
